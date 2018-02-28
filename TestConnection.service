@@ -19,4 +19,5 @@ ExecStart = /root/scripts/TestCon.sh
 [Install]
 WantedBy = multi-user.target
 
+#To check functionality
 #After the Unit file has been run there should be a testbootfile in /tmp
