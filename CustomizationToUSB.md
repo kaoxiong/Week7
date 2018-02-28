@@ -37,7 +37,7 @@ The command are as follow:
 sudo usermod -l newUsername oldUsername
 ~~~
 
-I changed 'newUsername' to my desire name 'KaoXiong' and 'oldUsername' to 'ubuntu'
+I changed `newUsername` to my desire name `KaoXiong` and `oldUsername` to `ubuntu`
 
 
 
