@@ -1,0 +1,22 @@
+# For this Unit file to work please do the following 
+# cd /root
+# mkdir scripts
+# cd scripts
+# nano TestCon.sh
+# The script TestCon.sh should have:
+	# #!/bin/bash
+	# touch /tmp/testbootfile
+# chmod +x TestCon.sh
+
+
+[Unit]
+Description = Testing connection
+After = network.target
+
+[Service]
+ExecStart = /root/scripts/TestCon.sh
+
+[Install]
+WantedBy = multi-user.target
+
+#After the Unit file has been run there should be a testbootfile in /tmp
